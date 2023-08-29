@@ -6,6 +6,15 @@
     composer require laravel/ui <br>
     php artisan ui vue --auth <br>
 6 - Pelo terminal abra a pasta do projeto e de um (npm install) e em seguida (npm run dev).<br>
+7 - Criar uma base de dados com o nome apresentaTesteDev(CREATE database apresentatestedev).<br>
+8 - Execute no terminal da aplicação o comando para criar as tabelas (php artisan migrate).<br><br>
+
+Agora dentro do sistema deve criar um usuario no botão "Register" preenchendo as indormações.<br>
+Dentro do sistema é possivel ver a consulta de Pessoas pelo botão "Lista de Pessoa".<br>
+Dentro da Lista de pessoas é possivel inserir um registro pelo botão "Incluir Pessoa", preencher os dados e clicar em Cadastrar, sera redirecionado para a Lista.<br>
+com um registro inserido é possivel Alterar e Excluir.
+
+
     
 
 
