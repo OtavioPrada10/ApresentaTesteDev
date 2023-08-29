@@ -3,8 +3,8 @@
 3 - Agora instale o Composer <a href="https://getcomposer.org">Clique aqui para ler mais</a>...<br> 
 4 - Pelo terminal abra a pasta do projeto e inicie com (php artisan serve). <br>
 5 - os comandos a seguir são para criar arquivos caso ainda não tenham sido criados.
-    composer require laravel/ui
-    php artisan ui vue --auth
+    composer require laravel/ui <br>
+    php artisan ui vue --auth <br>
 6 - Pelo terminal abra a pasta do projeto e de um (npm install) e em seguida (npm run dev).<br>
     
 
