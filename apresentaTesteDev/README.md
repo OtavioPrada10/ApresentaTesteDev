@@ -6,6 +6,9 @@
     composer require laravel/ui <br>
     php artisan ui vue --auth <br>
 6 - Pelo terminal abra a pasta do projeto e de um (npm install) e em seguida (npm run dev).<br>
+7 - Execute o comando para criar as tabelas (php artisan migrate).<br><br>
+
+Agora dentro do sistema deve criar um usuario no botão "Register" preenchendo as indormações.<br>
     
 
 
