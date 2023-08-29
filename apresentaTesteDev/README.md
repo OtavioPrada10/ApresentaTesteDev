@@ -12,6 +12,8 @@
 Agora dentro do sistema deve criar um usuario no botão "Register" preenchendo as indormações.<br>
 Dentro do sistema é possivel ver a consulta de Pessoas pelo botão "Lista de Pessoa".<br>
 Dentro da Lista de pessoas é possivel inserir um registro pelo botão "Incluir Pessoa", preencher os dados e clicar em Cadastrar, sera redirecionado para a Lista.<br>
+com um registro inserido é possivel Alterar e Excluir.
+
 
     
 
