@@ -18,27 +18,37 @@ class PessoaController extends Controller
     {
         return view('pessoas.form');
     }
-
-    public function add(Request $request) {
+    /**
+     * Adiciona um registro
+     */
+    public function add(Request $request)
+    {
         $pessoa = new Pessoa();
         $pessoa = $pessoa->create($request->all());
 
         return Redirect::to('/pessoa');
     }
 
-    public function edit( $id) {
+    public function edit($id)
+    {
         $pessoa = Pessoa::findOrFail($id);
         return view('pessoas.form', compact('pessoa'));
     }
-
-    public function update($id, Request $request){
+    /**
+     * Altera o registro
+     */
+    public function update($id, Request $request)
+    {
         $pessoa = Pessoa::findOrFail($id);
         $pessoa->update($request->all());
 
         return Redirect::to('/pessoa');
     }
-
-    public function delete($id){
+    /**
+     * Deleta o registro
+     */
+    public function delete($id)
+    {
         $pessoa = Pessoa::findOrFail($id);
         $pessoa->delete();
         return Redirect::to('/pessoa');
