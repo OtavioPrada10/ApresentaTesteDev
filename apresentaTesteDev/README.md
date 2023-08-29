@@ -9,12 +9,7 @@
 7 - Criar uma base de dados com o nome apresentaTesteDev(CREATE database apresentatestedev).<br>
 8 - Execute no terminal da aplicação o comando para criar as tabelas (php artisan migrate).<br><br>
 
-Agora dentro do sistema deve criar um usuario no botão "Register" preenchendo as indormações.<br>
-Dentro do sistema é possivel ver a consulta de Pessoas pelo botão "Lista de Pessoa".<br>
-Dentro da Lista de pessoas é possivel inserir um registro pelo botão "Incluir Pessoa", preencher os dados e clicar em Cadastrar, sera redirecionado para a Lista.<br>
-com um registro inserido é possivel Alterar e Excluir.
-
-
-    
-
-
+Agora dentro do sistema deve criar um usuário no botão "Register" preenchendo as informações.<br>
+Dentro do sistema é possível ver a consulta de Pessoas pelo botão "Lista de Pessoa".<br>
+Dentro da Lista de pessoas é possível inserir um registro pelo botão "Incluir Pessoa", preencher os dados e clicar em Cadastrar, sera redirecionado para a Lista.<br>
+com um registro inserido é possível Alterar e Excluir.
